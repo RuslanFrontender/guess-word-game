@@ -1,0 +1,10 @@
+:root {
+  --c-dark: #1c1c1c;
+  --c-green: #32de8a;
+  --c-red: #f95738;
+}
+
+:root {
+  --transition-duration: 0.4s;
+  --transition-easing: cubic-bezier(0.16, 1, 0.32, 1);
+}

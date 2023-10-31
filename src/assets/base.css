@@ -1,0 +1,19 @@
+html {
+  --viewport: 414;
+  font-size: calc(16 / var(--viewport) * 100vw);
+  font-family: 'Montserrat', sans-serif;
+  color: var(--c-dark);
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@media (hover: hover) {
+  button:hover,
+  a:hover {
+    cursor: pointer;
+  }
+}
